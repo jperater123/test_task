@@ -1,0 +1,43 @@
+/* Contact Form Styles */
+.contact-form-wrapper {
+    background-color: #1a202c;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 800px;
+    border: 1px solid #2d3748;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #a0aec0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #2d3748;
+    background-color: #132643;
+    color: #e2e8f0;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #FFD700;
+}
+
+/* Contact Info Section */
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
